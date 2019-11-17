@@ -14,6 +14,8 @@ class Movie {
       this.backdrop_path,
       this.release_date});
 
+
+
   factory Movie.fromJson(Map<String, dynamic> json) {
     return Movie(
         title: json['title'],
