@@ -41,8 +41,11 @@ class SecondScreen extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.fromLTRB(
                                   20.0, 0.0, 0.0, 0.0),
-                              child: Text(DateFormat('MMMM dd, yyyy ')
-                                  .format(DateTime.parse(value.release_date)),style: TextStyle(color:Colors.grey[700] ),),
+                              child: Text(
+                                DateFormat('MMMM dd, yyyy ')
+                                    .format(DateTime.parse(value.release_date)),
+                                style: TextStyle(color: Colors.grey[700]),
+                              ),
                             ),
                           ],
                         ),
